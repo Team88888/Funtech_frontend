@@ -1,11 +1,17 @@
+import { Outlet } from 'react-router-dom';
 import cls from './App.module.scss';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import React from 'react';
 
 const App = () => {
     return (
         <div className={cls.app}>
-            <h1>Funtech Team 8</h1>
+            <Header />
+            <Outlet />
+            <Footer />
         </div>
     );
 };
 
-export default App;
+export default React.memo(App);

@@ -1,0 +1,48 @@
+@import '../../assets/fonts/fonts';
+
+// <-- Шрифты -->
+$font-family-main: 'YS Display', sans-serif;
+
+// Основной текст
+$font-size-t: 16px;
+$font-line-t: 20px;
+$font-t: #{$font-size-t} / #{$font-line-t} $font-family-main;
+
+// Подзаголовки
+$font-size-pz: 18px;
+$font-line-pz: 24px;
+$font-pz: #{$font-size-pz} / #{$font-line-pz} $font-family-main;
+
+// Заголовки medium
+$font-size-zm: 20px;
+$font-line-zm: 24px;
+$font-zm: #{$font-size-zm} / #{$font-line-zm} $font-family-main;
+
+// Заголовки large
+$font-size-zl: 24px;
+$font-line-zl: 32px;
+$font-zl: #{$font-size-zl} / #{$font-line-zl} $font-family-main;
+
+// Заголовки XLarge
+$font-size-zxl: 34px;
+$font-line-zxl: 40px;
+$font-zxl: #{$font-size-zxl} / #{$font-line-zxl} $font-family-main;
+
+// <-- Цвета -->
+// Основные
+$black900: #1a1a1a;
+$black500: #80818f;
+$black300: #c5c8d4;
+$black200: #e9eaf1;
+$black100: #f3f4f7;
+$black50: #ededed;
+$yellow800: #ffdc60;
+$yandex900: #ffd21f;
+$yandex1000: #fc0;
+$yandex1100: #9e7e00;
+
+// Системные
+$red-error: #f04438;
+$pink-error: #fda29b;
+$green-success: #309f27;
+$orange-warning: #fcbe1e;
