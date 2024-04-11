@@ -1,0 +1,48 @@
+.upcoming {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: fit-content;
+  border-left: 2px solid #9e7e00;
+  padding: 0 0 0 24px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  &__span {
+    color: $grey-black-900;
+    font: $font-body-1-r;
+  }
+
+  &__title {
+    color: $grey-black-900;
+    font: $font-h2-m;
+  }
+
+  &__date {
+    color: $grey-black-900;
+    font: $font-subtitle-r;
+  }
+
+  &__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #9e7e00;
+    font: 700 16px / 1.5 $font-family;
+
+    & svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

@@ -1,9 +1,6 @@
 .app {
-    margin: 0 auto;
-    text-align: center;
-    font: $font-t;
-}
-
-h1 {
-    color: $black900;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }

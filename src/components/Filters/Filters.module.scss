@@ -1,0 +1,15 @@
+.filters {
+  @include flex-between-center-horiz;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+  }
+}

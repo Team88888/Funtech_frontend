@@ -1,0 +1,41 @@
+.header {
+  @include flex-between-center-horiz;
+
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  padding: 36px 168px;
+
+  &__logo {
+    @include flex-center-vert;
+
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #000;
+    text-decoration: none;
+
+    &_medium {
+      font: $font-h1-m;
+    }
+
+    &_light {
+      font: $font-h1-l;
+    }
+  }
+
+  &__menu {
+    display: flex;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 28px;
+    list-style: none;
+  }
+}
