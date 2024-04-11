@@ -1,0 +1,65 @@
+// collors
+$white: #fff;
+$grey-black: #101828;
+$grey-300: #d0d5dd;
+$grey-700: #344054;
+$grey-black-900: #1a1a1a;
+$grey-black-500: #80818f;
+$grey-black-300: #c5c8d4;
+$grey-black-200: #e9eaf1;
+$grey-black-100: #f3f4f7;
+$grey-black-50: #f9fafb;
+$yandex-yandex-1000: #fc0;
+$yandex-yandex-900: #ffd21f;
+$yandex-yandex-800: #ffdc60;
+$green-green-40: #cfebd8;
+$green-green-60: #87cc9e;
+$green-green-120: #267a42;
+$orange-orange-40: #ffe9ce;
+$orange-orange-60: #ffc784;
+$orange-orange-120: #b86500;
+$rose-rose-40: #ffe7ed;
+$rose-rose-60: #ffc2d1;
+$rose-rose-120: #bc5c73;
+$blue-blue-40: #deebff;
+$blue-blue-60: #acccff;
+$blue-blue-120: #376cc0;
+$system-error-500: #f04438;
+$system-error-300: #fda29b;
+
+// Шрифты
+$font-family: 'YS Text', sans-serif;
+$second-family: 'YS Display', sans-serif;
+$font-main: $font-family, $second-family;
+
+// Толщина шрифта
+$fw-light: 300;
+$fw-regular: 400;
+$fw-mediun: 500;
+
+// Заголовки
+$font-h1-l: 300 34px / 40px $second-family;
+$font-h1-r: 400 34px / 40px $second-family;
+$font-h1-m: 500 34px / 40px $second-family;
+$font-h2-l: 300 24px / 32px $second-family;
+$font-h2-r: 400 24px / 32px $second-family;
+$font-h2-m: 500 24px / 32px $second-family;
+$font-h3-l: 300 20px / 24px $second-family;
+$font-h3-r: 400 20px / 24px $second-family;
+$font-h3-m: 500 20px / 24px $second-family;
+
+// Подзаголовки
+$font-subtitle-r: 400 18px / 24px $font-family;
+$font-subtitle-m: 500 18px / 24px $font-family;
+
+// Основной текст
+$font-body-1-r: 400 16px / 20px $font-family;
+$font-body-1-m: 500 16px / 20px $font-family;
+
+// Дополнительные шрифты
+$font-body-2-r: 400 14px / 20px $font-family;
+$font-body-2-m: 500 14px / 20px $font-family;
+$font-caption-1-r: 400 13px / 16px $font-family;
+$font-caption-1-m: 500 13px / 16px $font-family;
+$font-caption-2-r: 400 11px / 12px $font-family;
+$font-caption-2-m: 500 11px / 12px $font-family;

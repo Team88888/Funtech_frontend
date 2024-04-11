@@ -1,0 +1,14 @@
+@import '../fonts/fonts';
+@import 'reset';
+@import 'normalize';
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: $font-main;
+  display: flex;
+  max-width: 1440px;
+  flex-direction: column;
+  margin: 0 auto;
+  overflow: auto;
+}

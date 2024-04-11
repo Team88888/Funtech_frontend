@@ -1,0 +1,13 @@
+.MenuItem {
+  color: $grey-black-900;
+  font: $font-body-2-m;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  & svg {
+    width: 24px;
+    height: 24px;
+  }
+}
